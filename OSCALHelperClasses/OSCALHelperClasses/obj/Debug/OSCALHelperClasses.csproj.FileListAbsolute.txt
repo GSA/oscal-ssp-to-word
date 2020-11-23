@@ -1,0 +1,8 @@
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\bin\Debug\OSCALHelperClasses.dll
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\bin\Debug\OSCALHelperClasses.pdb
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\bin\Debug\SqlDataProvider.dll
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\obj\Debug\OSCALHelperClasses.csprojAssemblyReference.cache
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\obj\Debug\OSCALHelperClasses.csproj.CoreCompileInputs.cache
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\obj\Debug\OSCALHelperClasses.csproj.CopyComplete
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\obj\Debug\OSCALHelperClasses.dll
+C:\Users\Fareed Ahmed\Desktop\SSP New Work\Moustapha New Templates\OSCALSSPMapper\OSCALSSPMapper\OSCALHelperClasses\OSCALHelperClasses\obj\Debug\OSCALHelperClasses.pdb

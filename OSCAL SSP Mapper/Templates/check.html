@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script language=javascript>
+   function myFunction(text,percent)
+   {
+     document.getElementById("realmessage").innerText=text; 
+     document.getElementById("mainbar").style.width = percent;
+     document.getElementById("realbar").innerText=percent
+   }
+  </script>
+</head>
+<body onload="myFunction("","0%")">
+
+
+<div class="container">
+<p id="realmessage"></p>
+<div class="progress">
+<div id ="mainbar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0% ">
+<span id = "realbar" class="sr-only">0% Complete</span>
+   </div>
+  </div>
+</div>
+<script>myFunction("Starting the Word conversion of the file OSCALMilestone2.xml","2%")</script>
+
+
+     
+</body>
+</html>
