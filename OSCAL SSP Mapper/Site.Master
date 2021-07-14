@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="OSCAL_SSP_Mapper.SiteMaster" %>
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <title><%: Page.Title %> - OSCAL SSP V1.1 To Word Conversion Tool</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript">
+        function timedRefresh(timeoutPeriod) {
+            setTimeout("location.reload(false);", timeoutPeriod);
+        }
+        function scrollUp() {
+            window.scrollBy(0, 300);
+        }
+
+        function refresh() {
+            setTimeout("location.reload(true);", 15000);
+        }
+
+
+
+        function myFunction(text, percent) {
+            document.getElementById("realmessage").innerText = text;
+            document.getElementById("mainbar").style.width = percent;
+            document.getElementById("realbar").innerText = percent
+        }
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body  onload="myFunction("","0%")">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+                
+                
+            </Scripts>
+        </asp:ScriptManager>
+        <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" runat="server" href="~/">OSCAL SSP To Word Conversion Tool V1.1</a>
+    </div>
+  
+  </div>
+</nav>
+      
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; 2020,<%: DateTime.Now.Year %> - OSCAL SSP Tool V1.1 - <a href ="http://www.volpegroup.com"  target="_blank">VITG INC.</a></p>
+            </footer>
+        </div>
+        <script> scrollUp() </script>
+    </form>
+</body>
+</html>
+

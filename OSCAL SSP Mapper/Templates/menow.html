@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<body onload="myFunction()">
+
+<button type="button" id="myBtn" onclick="myFunction()">Change the width of this button</button>
+<div class="container">
+ <p id="realmessage"></p>
+  <div class="progress">
+  <div id="mainbar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0% ">
+    <span  id="realbar" class="sr-only">0% Complete</span>
+     </div>
+   </div>
+ </div>
+
+<script src="Scripts/jquery-3.4.1.js" type="text/javascript"></script>
+<script src="Scripts/bootstrap.js" type="text/javascript"></script>
+<script src="/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4AAEEC93" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="sAu2fSbK5AJY72LN/nqaqYtXZTi1W+AVgUMhIfaPKQU2LMbi5e9hk36g3c7s5R7VaCmGyeQK15yn/Jl11ndUftMhMwKehi7CvVr2tJ2SwTVV8UC9p8CdLsWOQQbpFOt+" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'ctl01', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myBtn").style.width = "300px";
+  document.getElementById("realmessage").innerText = "pemy is weak now. Alhamdoulillah this is now working";
+ // document.getElementById("mainbar").aria-valuenow="10"; 
+  document.getElementById("mainbar").style.width = "50%";
+  document.getElementById("realbar").innerText="50% Complete";
+}
+</script>
+
+<script> var message_para=document.getElementById("realmessage");</script>
+<script> var mainbar_div=document.getElementById("mainbar");</script>
+<script> var realbar_span=document.getElementById("realbar");</script>
+
+<script type="text/javascript">
+var dts=0; var dtmax=10;
+function SetParam()
+    {
+	document.getElementById("realmessage").InnerText = "pemy is weak now. ";
+       message_para.InnerText=" Successfully mapped the Metadata, System Characteristics, System Implementation, ...";
+	   mainbar_div.aria-valuenow="10"; mainbar_div.style.width = "10px";realbar_span.innerText="10% Complete";
+	   
+	}
+	</script>
+	
+
+
+</body>
+</html>
