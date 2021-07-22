@@ -17,7 +17,7 @@
         <div class="col-md-8" runat="server"  >
             <h2>Upload OSCAL SSP XML File</h2>
             <p>
-                &nbsp;Browse to the OSCAL SSP V1.0.0 XML file and click upload
+                &nbsp;Browse to the OSCAL SSP V1.0.0 XML file and click convert
                 to start process.</p>
             <p>
                 <strong>&nbsp;Note:</strong> <strong>&nbsp;The generation process can take several minutes to complete.</strong></p>
