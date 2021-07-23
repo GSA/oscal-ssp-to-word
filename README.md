@@ -15,7 +15,7 @@ Visual Studio 2019 Community Edition
 2. Clone and checkout the Project("https://github.com/GSA/oscal-ssp-to-word”)
 3. Clean and Build the Project
 4. Run the Project
-5. Select a valid OSCAL XML SSP file and click "Upload"
+5. Select a valid OSCAL XML SSP file and click "Convert"
 6. The FedRAMP Document rendering will take several minutes to complete and will automatically be     downloaded and available after rendering is complete.   Word should open automatically once it has fully downloaded the rendered document.
 
 # Known Issues
