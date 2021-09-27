@@ -12,7 +12,7 @@ Visual Studio 2019 Community Edition
 
 # Getting started with this project
 1. Install Visual Studio 2019 Community Edition
-2. Clone and checkout the Project("https://github.com/GSA/oscal-ssp-to-word”)
+2. Clone and checkout the project at https://github.com/GSA/oscal-ssp-to-word
 3. Clean and Build the Project
 4. Run the Project
 5. Select a valid OSCAL XML SSP file and click "Convert"
